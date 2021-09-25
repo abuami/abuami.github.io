@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!---this below is the liquid tag--->
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <!---this below is the liquid tag--->
+      {{ content }}
+    </div>
+    <footer>
+      <ul>
+        <li><a href="https://github.com/weblabtutorial">github.com</a></li>
+        <li><a href="https://weblabtutorial.github.io">weblabtutorial</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
