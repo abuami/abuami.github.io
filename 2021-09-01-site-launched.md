@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Site Launced "
+title: "Site Launched "
 date: 2021-09-01
 ---
